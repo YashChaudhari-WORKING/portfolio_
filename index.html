@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yash Chaudhari</title>
+
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  
+  <link id="theme-link" rel="stylesheet" href="./assets/css/lightmode.css" id="light-mode">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+<body>
+
+  <button id="mode-toggle" class="mode-toggle">
+    <i id="mode-icon" class="fas fa-sun"></i> 
+  </button>
+
+  <main>
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/profile.png" alt="Your Name" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Your Name">Yash Chaudhari</h1>
+
+          <p class="title">MERN Developer</p>
+        </div>
+
+        <button style="background: white; color: black;" class="info_more-btn" data-sidebar-btn>
+          <span style="background: white; color: black;" >Show Contacts</span>
+
+          <ion-icon style="background: white; color: black;" name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+           
+
+              <a href="mailto:choudhariyash7890@gmail.com" class="contact-link">choudhariyash7890@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+          <div class="contact-info">
+              <a href="tel:+91 9096842842" class="contact-link">+91 9096842842</a>
+            </div>
+
+          </li>
+
+
+          <li class="contact-item">
+
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="www.linkedin.com/in/yash-chaudhari-03733a30b" class="social-link">
+              <ion-icon name="logo-linkedin" class="ion-2"></ion-icon>
+            </a>
+          </li>
+
+
+          <li class="social-item">
+            <a href="https://github.com/YashChaudhari-WORKING" class="social-link">
+              <ion-icon name="logo-github" class="ion-2"></ion-icon>
+            </a>
+          </li>
+
+          
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Certificate</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Award</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I graduated with an MSc in 2024 and have a strong foundation in software programming, specifically in the MERN stack. By working on personal projects and actively studying, I have enhanced my skills in full-stack application development and acquired proficiency in fundamental programming languages such as Java, Python, and others. I am an enthusiastic and fast learner who is excited to tackle challenging tasks and make valuable contributions to creative teams.
+          </p>
+        </section>
+
+
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What I'm doing</h3>
+
+          <ul class="service-list">
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Full-stack development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+            </li>
+          </ul>
+
+        </section>
+        
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+          </section>
+
+        </div>
+        <!--
+        - #CONTACT
+      -->
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30274.991758332366!2d73.5939139329675!3d18.466712226900782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf2e67461101%3A0x828d43bf9d9ee343!2sPune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1729845869674!5m2!1sen!2sin"
+              width="200" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <ul class="social-list" style="position: left;">
+
+            <li class="social-item">
+
+
+              <a href="www.linkedin.com/in/yash-chaudhari-03733a30b" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+
+            </li>
+            <li class="social-item">
+              <a href="mailto:choudhariyash7890@gmail.com" class="contact-link">
+                <ion-icon name="mail"></ion-icon></a>
+            </li>
+          </ul>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit"  data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Master of Science in Computer Science
+              </h4>
+              <p class="timeline-text">
+                Shri Shivaji Vidya Prasarak Sanstha’s Science College, Dhule, Maharashtra
+              </p>
+              <span>2022 — 2024</span>
+
+              <p class="timeline-text">
+                CGPA: 9.02
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Bachelor of Science in Computer Science</h4>
+              <p class="timeline-text">
+                Shri Shivaji Vidya Prasarak Sanstha’s Science College, Dhule, Maharashtra </p>
+              <span>2019 — 2022</span>
+
+              <p class="timeline-text">
+                CGPA: 9.42</p>
+
+            </li>
+
+
+
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title"> Data Management Analyst</h4>
+              <h5 class="h5 timeline-item-title">Super Aluminium House</h5>
+
+              <span> July 2022- June 2024</span>
+
+              <p class="timeline-text">
+                Introduced IT-driven billing solutions leading to a 20% reduction in billing mistakes. Handled more than 150 transactions
+ per week and enhanced procedures for gathering customer feedback.</p>
+ <p class="timeline-text">Utilized product performance data to generate valuable marketing insights that resulted in a 15% increase in campaign
+  efficiency.</p>
+<p class="timeline-text">Increased client pool by using specific promotions and discounts, enhancing partnerships, and drawing in fresh customers
+</p>
+
+      
+            </li>
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+          <div class="row">
+            <div class="column">
+
+              <ul class="skills-list content-card">
+
+                <li class="skills-item">
+
+                  <div class="title-wrapper">
+                    <h5 class="h5">React JS</h5>
+                    <data value="80">80%</data>
+                  </div>
+
+                  <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" style="width: 80%;"></div>
+                  </div>
+
+                </li>
+
+                <li class="skills-item">
+
+                  <div class="title-wrapper">
+                    <h5 class="h5">Node JS</h5>
+                    <data value="70">70%</data>
+                  </div>
+
+                  <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" style="width: 70%;"></div>
+                  </div>
+
+                </li>
+
+                <li class="skills-item">
+
+                  <div class="title-wrapper">
+                    <h5 class="h5"> JavaScript </h5>
+                    <data value="80">80%</data>
+                  </div>
+
+                  <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" style="width: 80%;"></div>
+                  </div>
+
+                </li>
+
+                <li class="skills-item">
+
+                  <div class="title-wrapper">
+                    <h5 class="h5"> MongoDB, MySQL </h5>
+                    <data value="0">80%</data>
+                  </div>
+
+                  <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" style="width: 80%;"></div>
+                  </div>
+
+                </li>
+
+                <li class="skills-item">
+
+                  <div class="title-wrapper">
+                    <h5 class="h5"> Git, RESTful APIs </h5>
+                    <data value="90">90%</data>
+                  </div>
+
+                  <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" style="width: 90%;"></div>
+                  </div>
+
+                </li>
+
+              </ul>
+            </div>
+
+            <div class="column">
+              <ul class="skills-list content-card">
+
+                <li class="skills-item">
+
+                  <div class="title-wrapper">
+                    <h5 class="h5"> Core Java, Python</h5>
+                    <data value="75">75%</data>
+                  </div>
+
+                  <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" style="width: 75%;"></div>
+                  </div>
+
+                </li>
+
+                <li class="skills-item">
+
+                  <div class="title-wrapper">
+                    <h5 class="h5">HTML, CSS</h5>
+                    <data value="95">95%</data>
+                  </div>
+
+                  <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" style="width: 95%;"></div>
+                  </div>
+
+                </li>
+
+                <li class="skills-item">
+
+                  <div class="title-wrapper">
+                    <h5 class="h5">Tailwind, Bootstrap</h5>
+                    <data value="95">95%</data>
+                  </div>
+
+                  <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" style="width: 95%;"></div>
+                  </div>
+
+                </li>
+
+                <li class="skills-item">
+
+                  <div class="title-wrapper">
+                    <h5 class="h5">Postman, Excel</h5>
+                    <data value="80">80%</data>
+                  </div>
+
+                  <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" style="width: 80%;"></div>
+                  </div>
+
+                </li>
+
+             
+
+                </li>
+
+              </ul>
+            </div>
+          </div>
+
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #development
+      -->
+
+      <article class="development" data-page="projects">
+
+        <header>
+          <h2 class="h2 article-title">projects</h2>
+        </header>
+
+        <section class="projects">
+
+
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" style="background: white; color: black;" data-select>
+
+              <div class="select-value" data-selecct-value style="background: white; color: black;">Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+              
+
+            </button>
+
+            <ul class="select-list" style="background: white; color: black;">
+
+              <li class="select-item">
+                <button data-select-item style="background: white; color: black;">All</button>
+              </li>
+
+
+              <li class="select-item">
+                <button style="background: white; color: black;" data-select-item>Category 1</button>
+              </li>
+
+              <li class="select-item">
+                <button style="background: white; color: black;" data-select-item>Category 2</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="category 1">
+              <a href="https://github.com/shashperera/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/ecom.jpg " alt="smartsl" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">E - Commerce (online store) </h3>
+
+                <p class="project-category">MERN</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="category 1">
+              <a href="https://github.com/shashperera/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/sum.jpg" alt="github" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Youtube Transcript, PDF, Text Summarizer</h3>
+
+                <p class="project-category">Python,NLP</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="category 1">
+              <a href="https://github.com/shashperera/MonthlyExpenseTracker">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project1expense.png" alt="expense" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Analysis Dashboard</h3>
+
+                <p class="project-category">MERN</p>
+
+              </a>
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #RESEARCH
+      -->
+
+      <article class="research" data-page="certificate">
+
+        <header>
+          <h2 class="h2 article-title"> Certificate</h2>
+        </header>
+
+        <section class="research-posts">
+
+          <ul class="research-posts-list">
+
+            <li class="research-post-item">
+              <a href="https://www.linkedin.com/posts/yash-chaudhari-03733a30b_webdesign-freecodecamp-activity-7199309169223434240-f_Py?utm_source=share&utm_medium=member_android">
+
+                <figure class="research-banner-box">
+                  <img src="./assets/images/RWD.jpg" alt="Research 2022" loading="lazy">
+                </figure>
+
+                <div class="research-content">
+
+                  <div class="research-meta">
+                    <p class="research-category">Web development Certificate</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Jan 21, 2024</time>
+                  </div>
+                  <h3 class="h3 research-item-title">Responsive Web Design </h3>
+                </div>
+
+              </a>
+            </li>
+
+            <li class="research-post-item">
+              <a href="https://www.hackerrank.com/certificates/b55f4c666894">
+
+                <figure class="research-banner-box">
+                  <img src="./assets/images/java.jpg" alt="Conference Paper" loading="lazy">
+                </figure>
+
+                <div class="research-content">
+
+                  <div class="research-meta">
+                    <p class="research-category">Programming</p>
+
+                    <span class="dot"></span>
+                    <time datetime="2022-02-23">Jul 02, 2024</time>
+                  </div>
+                  <h3 class="h3 research-item-title">Java Programming</h3>
+                </div>
+              </a>
+            </li>
+
+            <li class="research-post-item">
+              <a href="https://www.hackerrank.com/certificates/b55f4c666894">
+
+                <figure class="research-banner-box">
+                  <img src="./assets/images/sql.jpg" alt="Conference Paper" loading="lazy">
+                </figure>
+
+                <div class="research-content">
+
+                  <div class="research-meta">
+                    <p class="research-category">Programming</p>
+
+                    <span class="dot"></span>
+                    <time datetime="2022-02-23">Jul 02, 2024</time>
+                  </div>
+                  <h3 class="h3 research-item-title">SQL Fundamentals</h3>
+                </div>
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="award">
+
+        <header>
+          <h2 class="h2 article-title">Awards </h2>
+        </header>
+
+        <section class="research-posts">
+
+          <ul class="research-posts-list">
+
+            <li class="research-post-item">
+              <a
+                href="https://medium.com/@shashipraba.56/unlocking-sustainable-futures-the-finnish-technological-revolution-58dfb672f364">
+
+                <figure class="research-banner-box">
+                  <img src="./assets/images/cc.jpeg" alt="FIN Sus" loading="lazy">
+                </figure>
+
+                <div class="research-content">
+
+                  <div class="research-meta">
+                    <p class="research-category">Academic</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Apr 14, 2023</time>
+                  </div>
+
+                  <h3 class="h3 research-item-title">Ranked 1st in BSc Comp</h3>
+
+                  <p class="research-text">
+                    Ranked 1st in BSc (comp- 2022) at Shri Shivaji Vidya Prasarak Sanstha’s Science College.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+        
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+      <!--
+        - #TEACHING
+      -->
+
+      <article class="books" data-page="books">
+
+        <header>
+          <h2 class="h2 article-title">Books</h2>
+        </header>
+
+        <section class="research-posts">
+
+          <ul class="research-posts-list">
+
+            <li class="research-post-item">
+              <a href="https://www.amazon.co.uk/dp/B0CW1K2JTR">
+
+                <figure class="research-banner-box">
+                  <img src="./assets/images/book1.jpg" alt="Amazon Book 1" loading="lazy">
+                </figure>
+
+                <div class="research-content">
+
+                  <div class="research-meta">
+                    <p class="research-category">Enterprise Architecture</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Feb 24, 2024</time>
+                  </div>
+
+                  <h3 class="h3 research-item-title">Proposal for an Enterprise Software Architecture for Hirdaramani
+                    Group</h3>
+
+                  <p class="research-text">
+                    In this study, one of the enterprise architecture frameworks,
+                    the OGAF TOGAF ADM (The Open Group Architecture Framework), will be used to aid in the development
+                    of applications for the CPO industry.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="research-post-item">
+              <a href="https://www.amazon.co.uk/dp/B0CNY7WPS7">
+
+                <figure class="research-banner-box">
+                  <img src="./assets/images/book2.jpg" alt="CICD" loading="lazy">
+                </figure>
+
+                <div class="research-content">
+
+                  <div class="research-meta">
+                    <p class="research-category">CI/CD</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Nov 24, 2023</time>
+                  </div>
+
+                  <h3 class="h3 research-item-title">CI CD Pipeline with AWS Devops</h3>
+
+                  <p class="research-text">
+                    This book is intended to assist you in learning the methods,
+                    AWS DevOps tools, strategies, and areas of expertise required to manage DevOps projects successfully
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
